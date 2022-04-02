@@ -2,11 +2,113 @@
 <html>
 <head>
     <title>Augmented Reality Web Applications</title>
+    <!--<link rel="stylesheet" href="navp.css">-->
 </head>
+    
+<body style="background-color:#FFDEAD;">
 
-<body>
-    <br><a href="marker_based/index.html">Marker-Based</a>
-    <br><a href="location_based/index.html">Location-Based</a>
-    <br><a href="location_based/syros.html">Syros Location-Based</a>
+    <header>
+        <h1>Augmented Reality Web App</h1>
+        <hr style="height:2px; border-width:0; width:60%; color:#154360; background-color:#154360">
+    </header>
+
+    <section>
+        <br><br><a href="marker_based/index.html" class="button"><span>Marker-Based</span></a>
+        <br><br><br><a href="location_based/index.html" class="button"><span>Location-Based</span></a>
+        <br><br><br><a href="location_based/syros.html" class="button"><span>Syros Location-Based</span></a>
+    </section>
+    
+    <footer>
+        <address>
+            Evangelos Panagiaris Maleas<br>
+            Τμήμα Μηχανικών Σχεδίασης Προϊόντων και Συστημάτων - Πανεπιστήμιο Αιγαίου<br>
+            Σύρος, Ερμούπολη | 2022<br>
+            Ηλεκτρονική Διεύθυνση (email): <a href="mailto:dpsd19090@syros.aegean.gr">dpsd19064@syros.aegean.gr</a><br>
+        </address>
+    </footer>
 </body>
 
+<style>
+    header {
+        background-color: #FFDEAD;
+        text-align: center;
+        font-family: Brush Script MT;
+        font-size: 1.2em;
+        color: #154360;
+        clear: both;
+        margin: auto;
+        padding: 0.5em 1em 0.5em 1em;
+        display: block;
+    }
+
+    section {
+        background-color: #FFDEAD;
+        text-align: center;
+        font-size: 1.5em;
+        margin: auto;
+        padding: 1em 0em;
+        display: block;
+        position: relative;
+        height: 400px;
+        top: 10px;
+    }
+
+    /*footer*/
+    footer {
+        background-color: #FFDEAD;
+        text-align: center;
+        color: #154360;
+        clear: both;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: 20px;
+    }
+
+    address {
+        padding: 0.8em 1em 0.8em 1em;
+    }
+
+
+    /*buttons*/
+    .button {
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+</style>
+
+</html>
