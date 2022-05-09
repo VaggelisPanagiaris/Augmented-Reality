@@ -21,7 +21,7 @@
 
 # 2nd Deliverable
 <br /> Αρχικά στο 2ο παραδοτέο δημιούργησα τα markers που χρειαζόμουν. Το marker για το dpsd μου το έφτιαξα στο Power Point της Microsoft και στη συνέχεια αφου κατέβασα τις εικόνες απο τον φάκελο assets (Hydrogen, Oxygen), χρησιμοποίησα την ιστοσελίδα [AR.js Marker Training](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) για την δημιουργία των markers(.patt αρχείο και png image).
-
+<br />Στη συνέχεια ανέβασα την εικόνα που ήθελα να εμφανίζεται όταν η κάμερα σκανάρει το dpsd marker μου, αφού την έκανα με transparent φόντο και πρόσθεσα να εμφανίζεται το κείμενο με το ονομά μου. Για το πρώτο ζητούμενο, για να κάνει display μια εικόνα μου όταν η κάμερα αναγνωρίζει το dpsd marker χρησιμοποίησα κώδικα απο το [A-Frame_a-image](https://aframe.io/docs/1.3.0/primitives/a-image.html#example) και για το Όνομα, που το έκανα με *text*, απο το [A-Frame_a-text](https://aframe.io/docs/1.3.0/primitives/a-text.html#example). Έπειτα άλλαξα το font απο το [A-Frame_text](https://aframe.io/docs/1.3.0/components/text.html#fonts2_dejavu) > [Glitch](https://glitch.com/~aframe-text-fonts-demo). 
 # 3rd Deliverable 
 
 
