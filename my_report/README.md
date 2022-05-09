@@ -20,7 +20,7 @@
 Τέλος έχω κάνει κάποιες αισθητικές αλλαγές στην αρχική σελίδα [index.html](https://vaggelispanagiaris.github.io/Augmented-Reality/), με τις επιλογές "Marker_Based","Location_Based","Syros_Location_Based". Έχω χρησιμοποιήσει γνώσεις και ιδέες για την μορφοποίηση της απο την εργασία στο μάθημα της Πληροφορικής, του 1ου εξαμήνου του προγράμματος σπουδών του Τμήματος Μηχανικών Σχεδίασης Προϊόντων & Συστημάτων του Πανεπιστημίου Αγαίου. Για τα 'buttons' χρησιμοποίησα κώδικα απο το [W3Schools](https://www.w3schools.com/howto/howto_css_animate_buttons.asp). Τους κωδικούς των χρωμάτων τους πήρα απο το [HTML COLOR CODES](https://htmlcolorcodes.com/). 
 
 # 2nd Deliverable
-
+<br /> Αρχικά στο 2ο παραδοτέο δημιούργησα τα markers που χρειαζόμουν. Το marker για το dpsd μου το έφτιαξα στο Power Point της Microsoft και στη συνέχεια αφου κατέβασα τις εικόνες απο τον φάκελο assets (Hydrogen, Oxygen), χρησιμοποίησα την ιστοσελίδα [AR.js Marker Training](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) για την δημιουργία των markers(.patt αρχείο και png image).
 
 # 3rd Deliverable 
 
