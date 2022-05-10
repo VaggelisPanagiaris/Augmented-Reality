@@ -30,6 +30,10 @@
             <img id="hydrogen" src="assets/card-H.png">
             <img id="oxygen" src="assets/card-O.png">
             
+            <video id="OxygenA" autoplay loop="true" src="assets/OxygenAnimation.mp4"></video>
+            <video id="HydrogenA" autoplay loop="true" src="assets/HydrogenAnimation.mp4"></video>
+            <video id="WaterA" autoplay loop="true" src="assets/H2Oanimation.mp4"></video>
+            
         </a-assets>                      
                                 
                       
@@ -61,13 +65,14 @@
         <!-- Hydrogen marker component -->
         <a-marker preset='custom' type='pattern' url='assets/Hydrogen.patt'>     
             <a-image src="#hydrogen" width="1" height="1" rotation="-90 0 0" position="0 0 0"></a-image>            
-            
+            <a-video src="#HydrogenA" width="1" height="1" position="0 0.5 0" rotation="-90 0 0" alpha-test="0.5"></a-video>
         </a-marker>
 
         <!-- Oxygen marker component -->
         <a-marker preset='custom' type='pattern' url='assets/Oxygen.patt'>
             <a-image src="#oxygen" width="1" height="1" rotation="-90 0 0" position="0 0.2 0"></a-image>
-                        
+             <a-video src="#OxygenA" width="1" height="1" position="0 0.5 0" rotation="-90 0 0" 
+                     material = "shader:standard; color:blue; emissive:red; emissiveIntensity:2"></a-video>            
         </a-marker>
         
 
