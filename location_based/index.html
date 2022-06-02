@@ -39,26 +39,25 @@
 	    
 	    <!--Insert Model-->
         	<a-assets>
-           	 <a-asset-item id="delphi" src="assets/delphi.gltf"></a-asset-item>
+           	 <a-asset-item id="delphi" src="assets/scene.gltf"></a-asset-item>
         	</a-assets>
 
 
-        <a-entity position="-6 -2 -6">
-            	<a-entity gltf-model="#delphi" scale="1 1 1" class="click" gps-entity-place="latitude:38.48233; longitude:22.501194;" text-show>
-                	<a-entity class="clickable"
-                          position="3 5.2 0"
-                          rotation="0 30 0"
-                          text="color: #a48111; font-type: bold; align: center; value: Hello!; width:4; heigh:3; letterSpacing: 10;"
-                          visible="false">
-		</a-entity>
-          </a-entity>
-          </a-entity>
-	    
-	    <a-box
-            material="color: red;"
-            scale="20 20 20"
-            gps-entity-place="latitude: 44.506477; longitude: 11.301524;">
-            </a-box>
+        <!-- Text-->
+            <a-entity id="delphi_model" position="0 0 -180" class="click"
+                      scale="5 5 5"
+                      gltf-model="#delphi"
+		                  animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 360 0; loop: true;"
+                      gps-entity-place="latitude: 38.48233; longitude: 22.501194;" information>
+            </a-entity>
+
+    <!--Tholos of Delphi Text-->
+      <a-text id="text_info" class="clickable" text="value: The Tholos of Delphi is among the ancient structures of the Sanctuary of Athena Pronaia in Delphi."
+           position="0 0 -90"
+           color= "#F4D35E"
+           scale="7 7 7"
+           visible="false">
+      </a-text>
        	 
         <a-camera
             rotation-reader
