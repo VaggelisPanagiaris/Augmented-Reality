@@ -28,6 +28,11 @@
 # 3rd Deliverable 
 <br /> ***Για το 1ο ζητούμενο*** Έψαξα και κατέβασα τον [Θόλο των Δελφών](https://el.wikipedia.org/wiki/%CE%98%CF%8C%CE%BB%CE%BF%CF%82_%CF%84%CF%89%CE%BD_%CE%94%CE%B5%CE%BB%CF%86%CF%8E%CE%BD) σε gltf αρχείο από το [sketchfab](https://sketchfab.com/search?q=tholos+delphi&type=models) και βρήκα τις συντεταγμένες του μνημείου από το Google.
 ![screenshot003](image003.PNG)
+<br />Έπειτα πρόσθεσα το gltf αρχείο που είχα προηγουμένος κατεβάσει.
+![screenshot003](image001.PNG)
+<br /> Αντιμετώπισα όμως πρόβλημα, στην αρχή ανέβασα στα assets μόνο το gltf αρχείο και δεν εμφανιζόταν στην οθόνη. Πάτησα ctr+alt+I και μου εμφάνησε ένα πλαίσιο. Στη συνέχεια ανέβασα και τα υπόλοιπα αρχεία που κατέβασα και συνόδευαν το 3d object και για κάποιο λόγο σταμάτησε να ανοίγει η κάμερα και η οθόνη εμφάνιζε το παρακάτω:
+![screenshot003](image002.PNG)
+<br /> ***Για το 2ο ζητούμενο*** Πρόσθεσα στον κώδικα μου με την βοήθεια [αυτόυ του παραδείγματος](https://glitch.com/edit/#!/salty-partner-1?path=index.html%3A11%3A21), έτσι ώστε όταν κάνετε κλικ στο animation, να εμφανίζεται το text.
 
 # Conclusions
 
