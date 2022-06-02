@@ -35,7 +35,7 @@
 <br /> ***Για το 2ο ζητούμενο*** Πρόσθεσα στον κώδικα μου με την βοήθεια [αυτόυ του παραδείγματος](https://glitch.com/edit/#!/salty-partner-1?path=index.html%3A11%3A21), έτσι ώστε όταν κάνετε κλικ στο animation, να εμφανίζεται το text.
 ![screenshot004](image004.PNG)
 
-<br /> ***Για το 3ο ζητούμενο*** Αρχικά επέλεξα να ασχοληθώ με το Πρώτο Δημόσιο ρολόι της Ελλάδας, το οποίο βρίσκεται στη Σύρο και συγκεκριμένα δίπλα στο Πρώτο Γυμνάσιο της Ερμούπολης, όπου στεγάζονται και οι εγκαταστάσεις του ΤΜΣΠΣ.
+<br /> ***Για το 3ο ζητούμενο*** Αρχικά επέλεξα να ασχοληθώ με το [Πρώτο Δημόσιο ρολόι της Ελλάδας](https://www.syrostoday.gr/news/131779-H-thaymasti-istoria-toy-rologioy-tis-Ermoypolis-Toy-protoy-dimotikoy-rologioy-stin-Ellada.aspx), το οποίο βρίσκεται στη Σύρο και συγκεκριμένα δίπλα στο [Πρώτο Γυμνάσιο της Ερμούπολης](https://www.visitsyros.com/prwto-gumnasio/), όπου στεγάζονται και οι εγκαταστάσεις του [ΤΜΣΠΣ](https://www.syros.aegean.gr/el).
 ![clock](clock001.jpg)
 <br/> Οπότε άλλαξα τα **Latitude** και **Longitude** με αυτά του Syros Place Of Interest τα οποία βρήκα στο [latlong.net](https://www.latlong.net/).
 <br/>Μετά πρόσθεσα ένα `a-image` ώστε να εμφανίζει μια εικόνα από το μέρος που επέλεξα.
