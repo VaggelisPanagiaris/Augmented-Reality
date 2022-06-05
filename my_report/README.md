@@ -46,6 +46,6 @@
 
 
 # Sources
-- Deliverable 1 | [A-Frame School](https://aframe.io/aframe-school/#/4/1 | [Glitch](https://glitch.com/~aframe-school-position) | [HTML COLOR CODES](https://htmlcolorcodes.com/) | [A-Frame particle system component](https://www.npmjs.com/package/aframe-particle-system-component) | [Snow](https://glitch.com/~aframe-school-registry) 
+- Deliverable 1 | [A-Frame School](https://aframe.io/aframe-school/#/4/1 )| [Glitch](https://glitch.com/~aframe-school-position) | [HTML COLOR CODES](https://htmlcolorcodes.com/) | [A-Frame particle system component](https://www.npmjs.com/package/aframe-particle-system-component) | [Snow](https://glitch.com/~aframe-school-registry) 
 - Deliverable 2 | [AR.js Marker Training](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) | [A-Frame_a-image](https://aframe.io/docs/1.3.0/primitives/a-image.html#example) | A-Frame_a-text](https://aframe.io/docs/1.3.0/primitives/a-text.html#example) | [απόσταση των δύο markers](https://stackoverflow.com/questions/61239107/how-to-get-marker-position-x-y-ar-js)| 
 - Deliverable 3 | [Θόλο των Δελφών](https://el.wikipedia.org/wiki/%CE%98%CF%8C%CE%BB%CE%BF%CF%82_%CF%84%CF%89%CE%BD_%CE%94%CE%B5%CE%BB%CF%86%CF%8E%CE%BD) | [sketchfab](https://sketchfab.com/search?q=tholos+delphi&type=models) |  [Clickable object](https://glitch.com/edit/#!/salty-partner-1?path=index.html%3A11%3A21) | [latlong.net](https://www.latlong.net/) |
